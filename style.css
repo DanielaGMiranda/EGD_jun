@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+	margin: 0;
+    background-image: url("background.jpg");
+    align-items: center;
+}
+.login_div, .ia_div{
+    color: #082b56;
+	background: rgba(255, 255, 255, 0.8);
+	float: none;
+    margin-top: 150px;
+	border-radius: 15px;
+    padding: 20px;
+}
+#logo, #ia{
+    width: 200px;
+}
+button{
+    background-color: #d4e5a4;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 0;
+    background: linear-gradient(120deg, #61eadc, #082b56, #8349db);
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 2s;
+    }
+  button span{
+    background-color: #082b56;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    }
+  button:hover span{ 
+    background: none;
+      }
+  button:active{
+    transform: scale(0.8);
+      }
+
