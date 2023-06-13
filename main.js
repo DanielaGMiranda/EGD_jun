@@ -12,3 +12,7 @@ function code(){
         document.getElementById("verifica").style.color = "red";
     }
 }
+
+function invite(){
+    location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeA5IHKZgAA5sz6qs4RjHVMy3z5VKRGY5FVvcD1qEwLMwRVZA/viewform"
+}
